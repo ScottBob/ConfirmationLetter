@@ -35,4 +35,14 @@ public class Client {
     public void setAmountDivider(double amountDivider) {
         this.amountDivider = amountDivider;
     }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "creditDebit='" + creditDebit + '\'' +
+                ", profile=" + profile +
+                ", counterTransfer='" + counterTransfer + '\'' +
+                ", amountDivider=" + amountDivider +
+                '}';
+    }
 }

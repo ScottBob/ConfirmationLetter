@@ -63,7 +63,9 @@ public class ConfirmationLetterGeneratorTest {
         ArrayList<TempRecord> sansDuplicateFaultRecordsList = new ArrayList<>();
         sansDuplicateFaultRecordsList.add(record1);
         OurOwnByteArrayOutputStream stream = gen.letter(ctx,fileUploadCommand,client,hashBashRecordsBalance,"Houston Branch", bankMap, faultRecords, extension, records, faultyAccountNumberRecordsList, sansDuplicateFaultRecordsList);
-        Approvals.verify(stream.toString());
+        fileUploadCommand.setFee("no");
+        OurOwnByteArrayOutputStream stream2 = gen.letter(ctx,fileUploadCommand,client,hashBashRecordsBalance,"Houston Branch", bankMap, faultRecords, extension, records, faultyAccountNumberRecordsList, sansDuplicateFaultRecordsList);
+        Approvals.verify(stream.toString() + stream2.toString());
     }
 
     private Record createRecord(boolean faultRecord, String bankName, BigDecimal amount, String beneficiaryName, Integer beneficiaryAccountNumber) {

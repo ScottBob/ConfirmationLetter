@@ -6,8 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileUploadCommand {
+    String fee = "yes";
+
+    public void setFee(String fee) { this.fee = fee;}
     public String getFee() {
-        return "yes";
+        return fee;
     }
 
     public List<Record> getTotalRecords() {
