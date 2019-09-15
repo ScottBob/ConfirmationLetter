@@ -6,6 +6,18 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class AmountAndRecordsPerBank {
+    @Override
+    public String toString() {
+        return "AmountAndRecordsPerBank{" +
+                "bank=" + bank +
+                ", totalRecord=" + totalRecord +
+                ", amount=" + amount +
+                ", currencyType='" + currencyType + '\'' +
+                ", accountNumber=" + accountNumber +
+                ", bankName='" + bankName + '\'' +
+                '}';
+    }
+
     Bank bank;
     private int totalRecord;
     private BigDecimal amount;

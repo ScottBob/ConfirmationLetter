@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="190d4fbe-0748-4501-959e-a60eb49730fe" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="190d4fbe-0748-4501-959e-a60eb49730fe" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ApprovalTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ApprovalTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmationLetter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationLetter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/domain/AmountAndRecordsPerBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/AmountAndRecordsPerBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Dollars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Dollars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Euros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Euros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.received.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.received.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,324 +30,35 @@
       <FILTER>com.example.confirmationletter.*</FILTER>
     </SUITE>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConfirmationLetterGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/confirmationletter/ConfirmationLetterGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="119" column="75" lean-forward="true" selection-start-line="119" selection-start-column="75" selection-end-line="119" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="method#calculateAmountsFaultyAccountNumber#0;class#ConfirmationLetterGenerator#0" />
-                <element signature="method#calculateRetrieveAmounts#0;class#ConfirmationLetterGenerator#0" />
-                <element signature="method#creditBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-                <element signature="method#debitBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-                <element signature="method#amountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-                <element signature="method#getAmountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-                <element signature="e#33555#33556#0" expanded="true" />
-                <element signature="e#33597#33598#0" expanded="true" />
-                <element signature="e#33645#33646#0" expanded="true" />
-                <element signature="e#33685#33686#0" expanded="true" />
-                <element signature="e#33727#33728#0" expanded="true" />
-                <element signature="e#33761#33762#0" expanded="true" />
-                <element signature="e#33805#33806#0" expanded="true" />
-                <element signature="e#33841#33842#0" expanded="true" />
-                <element signature="e#33909#33910#0" expanded="true" />
-                <element signature="e#33961#33962#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3700">
-              <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfirmationLetterGeneratorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/domain/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/domain/Profile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/domain/TransactionType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TempRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/TempRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileExtension.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/record/parser/FileExtension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="70" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/example/confirmationletter/CurrencyDao.java" />
-        <option value="$PROJECT_DIR$/src/com/example/confirmationletter/FileUploadCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/parser/TempRecord.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/domain/IRecord.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/command/FileUploadCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/TransactionType.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Record.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/SillyNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Bank.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/CurrencyCode.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/AmountAndRecordsPerBank.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/service/impl/Constants.java" />
-        <option value="$PROJECT_DIR$/src/org/springframework/webflow/execution/RequestContext.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/domain/Record.java" />
-        <option value="$PROJECT_DIR$/src/com/example/confirmationletter/LetterSelector.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Currency.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/HashBatchRecordsBalance.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/domain/TempRecord.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/domain/FaultRecord.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/BatchTotal.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Euros.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Dollars.java" />
-        <option value="$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java" />
-        <option value="$PROJECT_DIR$/src/com/example/confirmationletter/OurOwnByteArrayOutputStream.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/ConfirmationLetter.java" />
-        <option value="$PROJECT_DIR$/src/com/example/record/parser/FileExtension.java" />
-        <option value="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/example/confirmationletter/ConfirmationLetterGenerator.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="75" />
-    <option name="width" value="1813" />
-    <option name="height" value="1032" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="confirmationletter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="record" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="execution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RefactoringPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="confirmationletter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="commons-lang3-3.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="RefactoringPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="commons-lang3-3.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang3-3.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Ptuvl9rrFS9ct4D5sUGOPzjSWd" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Slide" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -343,10 +69,10 @@
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.domain" />
+      <recent name="com.example.dao" />
       <recent name="com.example.record.service.impl" />
       <recent name="com.example.record.parser" />
       <recent name="com.example.record.domain" />
-      <recent name="com.example.confirmationletter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,12 +87,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfirmationLetterGeneratorTest">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="JUnit.ConfirmationLetterGeneratorTest.letter">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfirmationLetterGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConfirmationLetter" />
@@ -376,20 +108,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.confirmationletter" />
       <option name="MAIN_CLASS_NAME" value="com.example.confirmationletter.ConfirmationLetterGeneratorTest" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ConfirmationLetterGeneratorTest.letter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConfirmationLetter" />
@@ -399,71 +124,39 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.confirmationletter" />
       <option name="MAIN_CLASS_NAME" value="com.example.confirmationletter.ConfirmationLetterGeneratorTest" />
       <option name="METHOD_NAME" value="letter" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.ConfirmationLetterGeneratorTest.letter" />
@@ -471,8 +164,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConfirmationLetterGeneratorTest" />
         <item itemvalue="JUnit.ConfirmationLetterGeneratorTest.letter" />
+        <item itemvalue="JUnit.ConfirmationLetterGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -493,695 +186,41 @@
       <workItem from="1521888197877" duration="35571000" />
       <workItem from="1527716852331" duration="4121000" />
       <workItem from="1527825299305" duration="31000" />
+      <workItem from="1527826530383" duration="2549000" />
+      <workItem from="1566705959527" duration="333000" />
+      <workItem from="1566706523292" duration="66000" />
+      <workItem from="1566706612413" duration="660000" />
+      <workItem from="1567474077541" duration="2963000" />
+      <workItem from="1567480221465" duration="629000" />
+      <workItem from="1567694874234" duration="4324000" />
+      <workItem from="1568367703814" duration="4892000" />
+      <workItem from="1568372660405" duration="1080000" />
+      <workItem from="1568483828324" duration="7302000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ConfirmationLetterGeneratorTest - 2018.03.25 at 05h 24m 01s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest - 2018.03.25 at 05h 46m 32s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest - 2018.03.25 at 05h 53m 33s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 14m 59s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 17m 19s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 23m 54s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 27m 19s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 27m 29s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 31m 55s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfirmationLetterGeneratorTest_letter - 2018.03.25 at 05h 47m 08s.xml">
-      <configuration name="ConfirmationLetterGeneratorTest.letter" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46341000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="42" y="75" width="1813" height="1032" extended-state="0" />
-    <layout>
-      <window_info anchor="bottom" id="Studio Actions" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Studio Architecture Diagrams" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.5020877" side_tool="true" visible="true" weight="0.20132378" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Top Tangles" order="7" />
-      <window_info anchor="bottom" id="Top Fat" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Structure Map" order="3" weight="0.32984003" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Studio Violations Breakout" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791232" visible="true" weight="0.20132378" />
-      <window_info anchor="bottom" id="Spec Violations" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.24544953" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Studio Architecture Diagrams" order="8" />
-      <window_info anchor="bottom" id="Messages" order="14" visible="true" weight="0.32916668" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32916668" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Studio Actions" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Structure Map" order="4" weight="0.32984003" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Top Fat" order="17" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14071429" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Top Tangles" order="10" />
-      <window_info anchor="bottom" id="Spec Violations" order="15" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Studio Violations Breakout" order="16" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.24544953" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="6" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/parser/FileExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/TempRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/parser/FileExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/confirmationletter/ConfirmationLetterGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="method#calculateAmountsFaultyAccountNumber#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#calculateRetrieveAmounts#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#creditBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#debitBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#amountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#getAmountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="e#33555#33556#0" expanded="true" />
-            <element signature="e#33597#33598#0" expanded="true" />
-            <element signature="e#33645#33646#0" expanded="true" />
-            <element signature="e#33685#33686#0" expanded="true" />
-            <element signature="e#33727#33728#0" expanded="true" />
-            <element signature="e#33761#33762#0" expanded="true" />
-            <element signature="e#33805#33806#0" expanded="true" />
-            <element signature="e#33841#33842#0" expanded="true" />
-            <element signature="e#33909#33910#0" expanded="true" />
-            <element signature="e#33961#33962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/command/FileUploadCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/HashBatchRecordsBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/service/impl/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/BatchTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/ConfirmationLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/TempRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Record.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/confirmationletter/ConfirmationLetterGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="method#calculateAmountsFaultyAccountNumber#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#calculateRetrieveAmounts#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#creditBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#debitBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#amountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#getAmountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="e#33555#33556#0" expanded="true" />
-            <element signature="e#33597#33598#0" expanded="true" />
-            <element signature="e#33645#33646#0" expanded="true" />
-            <element signature="e#33685#33686#0" expanded="true" />
-            <element signature="e#33727#33728#0" expanded="true" />
-            <element signature="e#33761#33762#0" expanded="true" />
-            <element signature="e#33805#33806#0" expanded="true" />
-            <element signature="e#33841#33842#0" expanded="true" />
-            <element signature="e#33909#33910#0" expanded="true" />
-            <element signature="e#33961#33962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/command/FileUploadCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/HashBatchRecordsBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/service/impl/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/BatchTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/ConfirmationLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/TempRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Record.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Record.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/SillyNumber.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Dollars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Euros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/confirmationletter/LetterSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/confirmationletter/OurOwnByteArrayOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/AmountAndRecordsPerBank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/BatchTotal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/ConfirmationLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="116" column="74" selection-start-line="116" selection-start-column="74" selection-end-line="116" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/CurrencyCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/HashBatchRecordsBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/command/FileUploadCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/FaultRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="107" column="88" selection-start-line="107" selection-start-column="88" selection-end-line="107" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/service/impl/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/springframework/webflow/execution/RequestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/parser/FileExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/record/domain/TempRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/TransactionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/domain/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/confirmationletter/ConfirmationLetterGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="119" column="75" lean-forward="true" selection-start-line="119" selection-start-column="75" selection-end-line="119" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="method#calculateAmountsFaultyAccountNumber#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#calculateRetrieveAmounts#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#creditBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#debitBatchTotal#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#amountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="method#getAmountAndRecords#0;class#ConfirmationLetterGenerator#0" />
-            <element signature="e#33555#33556#0" expanded="true" />
-            <element signature="e#33597#33598#0" expanded="true" />
-            <element signature="e#33645#33646#0" expanded="true" />
-            <element signature="e#33685#33686#0" expanded="true" />
-            <element signature="e#33727#33728#0" expanded="true" />
-            <element signature="e#33761#33762#0" expanded="true" />
-            <element signature="e#33805#33806#0" expanded="true" />
-            <element signature="e#33841#33842#0" expanded="true" />
-            <element signature="e#33909#33910#0" expanded="true" />
-            <element signature="e#33961#33962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>RefactoringPractice</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>ApprovalTests</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ConfirmationLetter$ConfirmationLetterGeneratorTest.ic" NAME="ConfirmationLetterGeneratorTest Coverage Results" MODIFIED="1568371555799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.confirmationletter.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ConfirmationLetter$ConfirmationLetterGeneratorTest_letter.ic" NAME="ConfirmationLetterGeneratorTest.letter Coverage Results" MODIFIED="1568569928064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.confirmationletter.*</FILTER>
+    </SUITE>
   </component>
 </project>

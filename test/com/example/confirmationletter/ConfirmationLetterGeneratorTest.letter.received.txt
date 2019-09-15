@@ -1,5 +1,5 @@
 OurOwnByteArrayOutputStream{
-creditDebit=' '
+creditDebit='-'
 , confirmationLetter=ConfirmationLetter{
 fileExtension=FileExtension{
 extensionString='.txt'
@@ -8,30 +8,60 @@ extensionString='.txt'
 , hashTotalCredit='80000.0'
 , hashTotalDebit='13549.11'
 , batchTotalDebit='0'
-, batchTotalCredit='20'
+, batchTotalCredit='57.14285714285714590232601040042936801910400390625'
 , totalProcessedRecords='314.33'
 , transactionCost='49.85'
 , collectionType='Fast'
-, bankMap=[com.example.domain.AmountAndRecordsPerBank@3d04a311]
+, bankMap=[AmountAndRecordsPerBank{bank=Wells Fargo Bank, totalRecord=1, amount=234532.23, currencyType='euro', accountNumber=31415, bankName='null'}]
 , creditingErrors=[FaultRecord{
 creditDebit='-'
 , currencyCode='Euro'
-, currency=Euros{
-code='null'
-, currencyType='null'
-}
-, bank=com.example.domain.Bank@7a46a697
+, currency=Currency{code=null, currencyType='null'}
+, bank=Wells Fargo
 , accountNumber=12
 , amount=2342.24
 , freeRecord=2
 , isCounterTransferRecord=1
 , beneficiaryName='Captain America'
 }]
-, client=com.example.domain.Client@5f205aa
+, client=Client{creditDebit='-', profile=Profile{ defaultCurrency = Dollars }, counterTransfer='0', amountDivider=3.5}
 , branchName='Houston Branch'
-, retrievedAmountEuro=19678.78
-, retrievedAmountFL=0
-, retrievedAmountUSD=0
+, retrievedAmountEuro=0
+, retrievedAmountFL=44514.479999999997744453139603137969970703125
+, retrievedAmountUSD=44514.479999999997744453139603137969970703125
+, totalRecords=[]
+}
+}OurOwnByteArrayOutputStream{
+creditDebit='-'
+, confirmationLetter=ConfirmationLetter{
+fileExtension=FileExtension{
+extensionString='.txt'
+}
+, currency=null
+, hashTotalCredit='80000.0'
+, hashTotalDebit='13549.11'
+, batchTotalDebit='0'
+, batchTotalCredit='57.14285714285714590232601040042936801910400390625'
+, totalProcessedRecords='314.33'
+, transactionCost=''
+, collectionType='Fast'
+, bankMap=[AmountAndRecordsPerBank{bank=Wells Fargo Bank, totalRecord=1, amount=234532.23, currencyType='euro', accountNumber=31415, bankName='null'}]
+, creditingErrors=[FaultRecord{
+creditDebit='-'
+, currencyCode='Euro'
+, currency=Currency{code=null, currencyType='null'}
+, bank=Wells Fargo
+, accountNumber=12
+, amount=2342.24
+, freeRecord=2
+, isCounterTransferRecord=1
+, beneficiaryName='Captain America'
+}]
+, client=Client{creditDebit='-', profile=Profile{ defaultCurrency = Dollars }, counterTransfer='0', amountDivider=3.5}
+, branchName='Houston Branch'
+, retrievedAmountEuro=0
+, retrievedAmountFL=44514.479999999997744453139603137969970703125
+, retrievedAmountUSD=44514.479999999997744453139603137969970703125
 , totalRecords=[]
 }
 }

@@ -12,12 +12,12 @@ extensionString='.txt'
 , totalProcessedRecords='314.33'
 , transactionCost='49.85'
 , collectionType='Fast'
-, bankMap=[com.example.domain.AmountAndRecordsPerBank@759ebb3d]
+, bankMap=[AmountAndRecordsPerBank{bank=Wells Fargo Bank, totalRecord=1, amount=234532.23, currencyType='euro', accountNumber=31415, bankName='null'}]
 , creditingErrors=[FaultRecord{
 creditDebit='-'
 , currencyCode='Euro'
 , currency=Euros{
-code='null'
+code='Euro'
 , currencyType='null'
 }
 , bank=Wells Fargo
@@ -30,8 +30,8 @@ code='null'
 , client=Client{creditDebit='-', profile=Profile{}, counterTransfer='0', amountDivider=3.5}
 , branchName='Houston Branch'
 , retrievedAmountEuro=19678.78
-, retrievedAmountFL=0
-, retrievedAmountUSD=0
+, retrievedAmountFL=6733.19
+, retrievedAmountUSD=6733.19
 , totalRecords=[]
 }
 }OurOwnByteArrayOutputStream{
@@ -48,12 +48,12 @@ extensionString='.txt'
 , totalProcessedRecords='314.33'
 , transactionCost=''
 , collectionType='Fast'
-, bankMap=[com.example.domain.AmountAndRecordsPerBank@759ebb3d]
+, bankMap=[AmountAndRecordsPerBank{bank=Wells Fargo Bank, totalRecord=1, amount=234532.23, currencyType='euro', accountNumber=31415, bankName='null'}]
 , creditingErrors=[FaultRecord{
 creditDebit='-'
 , currencyCode='Euro'
 , currency=Euros{
-code='null'
+code='Euro'
 , currencyType='null'
 }
 , bank=Wells Fargo
@@ -66,8 +66,8 @@ code='null'
 , client=Client{creditDebit='-', profile=Profile{}, counterTransfer='0', amountDivider=3.5}
 , branchName='Houston Branch'
 , retrievedAmountEuro=19678.78
-, retrievedAmountFL=0
-, retrievedAmountUSD=0
+, retrievedAmountFL=6733.19
+, retrievedAmountUSD=6733.19
 , totalRecords=[]
 }
 }

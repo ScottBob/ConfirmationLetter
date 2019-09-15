@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="ApprovalTests">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Tools/ApprovalTests.019/ApprovalTests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../tools/ApprovalTests/ApprovalTests.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Tools/ApprovalTests.019/ApprovalTests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../tools/ApprovalTests/ApprovalTests.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -11,6 +11,7 @@ public class Client {
     public String getCreditDebit() {
         return creditDebit;
     }
+    // CREDIT or DEBIT
     public void setCreditDebit(String creditDebit) {
         this.creditDebit = creditDebit;
     }
@@ -22,15 +23,16 @@ public class Client {
         this.profile = profile;
     }
 
+    // TRUE or FALSE
     public String getCounterTransfer() {
-        return Constants.TRUE;
+        return counterTransfer;
     }
     public void setCounterTransfer(String counterTransfer) {
         this.counterTransfer = counterTransfer;
     }
 
     public double getAmountDivider() {
-        return 10;
+        return amountDivider;
     }
     public void setAmountDivider(double amountDivider) {
         this.amountDivider = amountDivider;
