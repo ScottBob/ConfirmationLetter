@@ -15,4 +15,5 @@ public class Constants {
     public static final String CREDITING = "Crediting";
     public static final String RBTT_BANK_ALTERNATE = "RBTT Bank Alternative";
     public static final String DEBITING = "Debiting";
+    public static final String NO = "no";
 }

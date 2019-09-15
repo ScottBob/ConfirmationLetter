@@ -7,6 +7,7 @@ import com.example.record.domain.Record;
 import com.example.record.domain.TempRecord;
 import com.example.record.parser.FileExtension;
 import com.example.record.service.impl.Constants;
+import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import org.approvaltests.Approvals;
 import org.springframework.webflow.execution.RequestContext;
 
@@ -18,6 +19,8 @@ import java.util.HashMap;
 public class ConfirmationLetterGeneratorTest {
     String[] creditDebit = {Constants.CREDIT, Constants.DEBIT};
     Currency[] currencies = {new Dollars(), new Euros(), new Pound(), new Yen()};
+    String[] hasFee = {Constants.YES, Constants.NO};
+    String[] counterTransfer = {Constants.TRUE, Constants.FALSE};
 
 
     @org.junit.Test
@@ -27,13 +30,7 @@ public class ConfirmationLetterGeneratorTest {
         gen.setLetterSelector(letterSelector);
         RequestContext ctx = new RequestContext();
         FileUploadCommand fileUploadCommand = new FileUploadCommand();
-        Client client = new Client();
-        client.setCreditDebit(Constants.DEBIT);
-        client.setAmountDivider(3.5);
-        client.setCounterTransfer(Constants.FALSE);
-        Profile profile = new Profile();
-
-        client.setProfile(profile);
+        Client[] clients = generateClients();
         HashBatchRecordsBalance hashBashRecordsBalance = new HashBatchRecordsBalance();
         hashBashRecordsBalance.setHashTotalCredit(80000.0);
         hashBashRecordsBalance.setHashTotalDebit(13549.11);
@@ -69,10 +66,26 @@ public class ConfirmationLetterGeneratorTest {
         records.add(tempRecord2);
         TempRecord record2 = (TempRecord)createRecord(false, "Bank of America", BigDecimal.valueOf(12247.67), "Batman", 7, Constants.USD_CURRENCY_CODE, Constants.DEBIT);
         records.add(record2);
-        OurOwnByteArrayOutputStream stream = gen.letter(ctx,fileUploadCommand,client,hashBashRecordsBalance,"Houston Branch", bankMap, faultRecords, extension, records, faultyAccountNumberRecordsList, sansDuplicateFaultRecordsList);
+        OurOwnByteArrayOutputStream stream = gen.letter(ctx,fileUploadCommand,clients[0],hashBashRecordsBalance,"Houston Branch", bankMap, faultRecords, extension, records, faultyAccountNumberRecordsList, sansDuplicateFaultRecordsList);
         fileUploadCommand.setFee("no");
-        OurOwnByteArrayOutputStream stream2 = gen.letter(ctx,fileUploadCommand,client,hashBashRecordsBalance,"Houston Branch", bankMap, faultRecords, extension, records, faultyAccountNumberRecordsList, sansDuplicateFaultRecordsList);
+        OurOwnByteArrayOutputStream stream2 = gen.letter(ctx,fileUploadCommand,clients[1],hashBashRecordsBalance,"Houston Branch", bankMap, faultRecords, extension, records, faultyAccountNumberRecordsList, sansDuplicateFaultRecordsList);
         Approvals.verify(stream.toString() + stream2.toString());
+    }
+
+    private Client[] generateClients() {
+        ArrayList<Client> clients = new ArrayList<>();
+        double divider = 5;
+        for (String cd : creditDebit) {
+            for (String ct : counterTransfer) {
+                Client client = new Client(cd, new Profile(), ct, divider /= 2);
+                clients.add(client);
+            }
+        }
+        Client[] clientArray = new Client[clients.size()];
+        for (int i = 0; i < clients.size(); ++i) {
+            clientArray[i] = clients.get(i);
+        }
+        return clientArray;
     }
 
     private Record createRecord(boolean faultRecord, String bankName, BigDecimal amount, String beneficiaryName, Integer beneficiaryAccountNumber, String currencyCode, String sign) {

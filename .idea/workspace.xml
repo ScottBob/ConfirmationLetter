@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190d4fbe-0748-4501-959e-a60eb49730fe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ApprovalTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ApprovalTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfirmationLetter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationLetter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dao/CurrencyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/domain/AmountAndRecordsPerBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/AmountAndRecordsPerBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Dollars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Dollars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Euros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Euros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/domain/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/domain/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/record/service/impl/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/record/service/impl/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.approved.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.received.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/confirmationletter/ConfirmationLetterGeneratorTest.letter.received.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,6 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Slide" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -195,7 +185,7 @@
       <workItem from="1567694874234" duration="4324000" />
       <workItem from="1568367703814" duration="4892000" />
       <workItem from="1568372660405" duration="1080000" />
-      <workItem from="1568483828324" duration="7302000" />
+      <workItem from="1568483828324" duration="9789000" />
     </task>
     <servers />
   </component>
@@ -214,6 +204,37 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/domain/Currency.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/domain/Currency.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/domain/Currency.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/domain/Currency.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/domain/Euros.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ConfirmationLetter$ConfirmationLetterGeneratorTest.ic" NAME="ConfirmationLetterGeneratorTest Coverage Results" MODIFIED="1568371555799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -8,6 +8,13 @@ public class Client {
     private String counterTransfer;
     private double amountDivider;
 
+    public Client(String creditDebit, Profile profile, String counterTransfer, double amountDivider) {
+        this.creditDebit = creditDebit;
+        this.profile = profile;
+        this.counterTransfer = counterTransfer;
+        this.amountDivider = amountDivider;
+    }
+
     public String getCreditDebit() {
         return creditDebit;
     }
